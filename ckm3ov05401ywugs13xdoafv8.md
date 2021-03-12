@@ -38,7 +38,48 @@ You can download latest LTS version of Node JS from  [here](https://nodejs.org/e
 
 As we are using Mongo DB for storing data as a database, you need to install it in your system. And in this tutorial I am not going to be covering that because there are thousands of tutorials out there in internet. Its a very straightforward process.
 
-### 3. VS Code
+### 3. Problem Statement
+
+Well, for the problem statement, we are not going to build something which we can sell it and earn money! But a very simple app with one entity. 
+
+We have a Programmer, who have attributes of Name, Age, Skill and hasJob.
+
+In short
+
+```
+Programmer:
+     - name (string)
+     - age (number)
+     - skill (string)
+     - hasJob (boolean)
+```
+
+And if we consider our application is running in port `9000`, the different API's look like this:
+
+- **Saving** the programmer details
+
+```
+POST : http://localhost:9000/programmer
+```
+- **Fetch all** the programmer details
+
+```
+GET : http://localhost:9000/programmers
+```
+- **Fetch a particular** programmer with unique ID
+
+```
+GET : http://localhost:9000/programmer/<id>
+```
+- **Delete** a perticular programmer details
+
+```
+DELETE : http://localhost:9000/programmer/<id>
+```
+
+
+
+### 4. VS Code
 
 In this tutorial I am going to use VS code simply because I am used to it. You can use your own anyway.
 
