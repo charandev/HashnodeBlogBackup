@@ -1,4 +1,4 @@
-## The problem of  "<div> Soup" in React. How to get rid of it?
+## The problem of  '<div> Soup' in React. How to get rid of it?
 
 In React we work with JSX all the time. JSX allows us to write HTML in React. JSX is the code that you return in your Components, which in the end will be rendered to the real DOM by a React.
 
